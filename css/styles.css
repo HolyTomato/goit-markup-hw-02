@@ -1,4 +1,38 @@
-#title{
-	color: slateblue;
-	padding: 0%;
+.top-line{
+	position: absolute;
+	width: 1600px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	background-color: yellow;
+
+}
+
+.body{
+	font-family: Roboto;
+	color: #212121;
+	background: #F5F5F5;
+	
+}
+
+.logo{
+	font-family: Raleway;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 31px;
+	letter-spacing: 0.03em;
+	text-align: left;
+	color: blue;
+	background-color: orange;	
+}
+
+.buttons .button {
+	cursor: pointer;
+	color: F5F4FA;
+}
+
+.buttons .button:hover,
+.buttons .button:focus {
+	color: #2196F3;
+
 }
