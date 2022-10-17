@@ -6,7 +6,7 @@
 
 .body {
   font-family: "Roboto", sans-serif;
-  background-color:var(--primary-white-color);
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -14,9 +14,8 @@
   height: 1880px;
 }
 
-.main-content{
-  color:#EEEEEE ;
-  
+.main-content {
+  color: #eeeeee;
 }
 
 .logo {
@@ -103,10 +102,10 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em; 
+  letter-spacing: 0.06em;
 }
 
-.cards{
+.cards {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
