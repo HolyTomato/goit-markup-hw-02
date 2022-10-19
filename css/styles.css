@@ -82,16 +82,15 @@ a {
 .button:focus {
   color: var(--primary-white-color);
   background: var(--accent-color);
-  
 }
 
-.hero-button{
+.hero-button {
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  background: #2196F3;
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   width: 216px;
@@ -101,10 +100,9 @@ a {
 }
 
 .hero-button:hover,
-.hero-button:focus{
-  background: #188CE8;
+.hero-button:focus {
+  background: #188ce8;
 }
-
 
 .text {
   font-size: 16px;
@@ -117,19 +115,16 @@ a {
   line-height: 1.17;
 }
 
-
 .features {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
-
 .feature-text {
   color: var(--description-color);
   line-height: 1.71;
 }
-
 
 .about-team {
   background: #f5f4fa;
@@ -200,7 +195,6 @@ a {
 }
 
 .address:hover,
-.address:focus{
+.address:focus {
   color: var(--accent-color);
 }
-
