@@ -4,6 +4,8 @@
   --primary-white-color: #ffffff;
   --background-color: #2f303a;
   --description-color: #757575;
+  --main-line-height: 1.17;
+  --main-font-weight: 500;
 }
 
 body {
@@ -25,14 +27,14 @@ a {
   font-family: "Raleway", sans-serif;
   color: var(--accent-color);
   font-size: 26px;
-  line-height: 1.17;
+  line-height: var(--main-line-height);
 }
 
 .logo-studio {
   font-family: "Raleway", sans-serif;
   color: #000000;
   font-size: 26px;
-  line-height: 1.17;
+  line-height: var(--main-line-height);
 }
 
 .logo-studio-footer {
@@ -41,8 +43,8 @@ a {
 
 .contacts {
   color: var(--description-color);
-  line-height: 1.17;
-  font-weight: 500;
+  line-height: var(--main-line-height);
+  font-weight: var(--main-font-weight);
   font-style: normal;
 }
 
@@ -53,8 +55,8 @@ a {
 
 .navigation {
   color: var(--primary-text-color);
-  line-height: 1.17;
-  font-weight: 500;
+  line-height: var(--main-line-height);
+  font-weight: var(--main-font-weight);
 }
 
 .navigation:hover,
@@ -64,13 +66,13 @@ a {
 
 .current-navigation {
   color: var(--accent-color);
-  font-weight: 500;
+  font-weight: var(--main-font-weight);
 }
 
 .button {
   font-family: inherit;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: var(--main-font-weight);
   font-size: 16px;
   line-height: 1.6;
   background: #f5f4fa;
@@ -88,7 +90,7 @@ a {
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.8;
   letter-spacing: 0.06em;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -112,7 +114,7 @@ a {
 
 .title {
   font-size: 36px;
-  line-height: 1.17;
+  line-height: var(--main-line-height);
 }
 
 .features {
@@ -123,7 +125,7 @@ a {
 
 .feature-text {
   color: var(--description-color);
-  line-height: 1.71;
+  line-height: 1.7;
 }
 
 .about-team {
@@ -131,9 +133,9 @@ a {
 }
 
 .team {
-  font-weight: 500;
+  font-weight: var(--main-font-weight);
   font-size: 16px;
-  line-height: 1.17;
+  line-height: var(--main-line-height);
 }
 
 .hero {
@@ -191,7 +193,7 @@ a {
 .address {
   font-style: normal;
   color: var(--primary-white-color);
-  line-height: 1.17;
+  line-height: var(--main-line-height);
 }
 
 .address:hover,
