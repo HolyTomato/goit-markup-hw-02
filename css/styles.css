@@ -87,7 +87,9 @@ a {
 }
 
 .hero-button {
+  cursor: pointer;
   color: var(--primary-white-color);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
@@ -187,6 +189,8 @@ a {
 }
 
 .footer {
+  font-size: 14px;
+  line-height: var(--main-line-height);
   background-color: var(--background-color);
 }
 
